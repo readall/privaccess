@@ -1,0 +1,35 @@
+[server]
+ip_address = "10.175.96.241"
+server_port = 55055
+access_ports = [22,53,123,80,443]
+interface_name = "ens4"
+
+
+#[auth]
+#pre_shared_key = "6rHvrdTclgrRPOjclevU"
+#pre_shared_iv = "OGyfuckihucc0R02Xd6i"
+
+
+#[local]
+#local_port = 34254
+#identifier = "shailendra.thakur@gmail.com"
+#ip_address = "10.175.98.119"
+
+[clients]
+[clients.client1]
+client_id = "client-1"
+client_name = "Name-1"
+pre_shared_key = "6rHvrdTclgrRPOjclevU"
+pre_shared_iv = "OGyfuckihucc0R02Xd6i"
+
+[clients.client2]
+client_id = "client-2"
+client_name = "Name-2"
+pre_shared_key = "7NST5imCVwGK630P"
+pre_shared_iv = "rN5eQUwucp5yN21v"
+
+[clients.client3]
+client_id = "client-3"
+client_name = "Name-3"
+pre_shared_key = "V2AB7OFdsJ1vqTj6"
+pre_shared_iv = "DNglMnlCfRflXupC"
