@@ -2,8 +2,8 @@
 This is a Single packet authentication and authorization server.
 There is a client needed and one such implementation is https://github.com/readall/privclient
 
-** Currently The code is not suitable for public consumption ** 
-** That is why server itself is a no-op other than logging the parameters and message from client **
+## ** Currently The code is not suitable for public consumption ** 
+## ** That is why server itself is a no-op other than logging the parameters and message from client **
 
 #Introduction
 For people who self host service in cloud mostly for consumption of self, friends and family.
