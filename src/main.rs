@@ -223,10 +223,10 @@ fn handle_udp_packet(interface_name: &str, source: IpAddr, destination: IpAddr, 
                 println!("Timestamp is acceptable");
                 // First let's get the packet, process it and then we can think of creating appropriate command
                 // once proper command is formed, we can enable command execution
-                // let _ipfilter = Command::new("/usr/sbin/iptables")
-                //                 .args(["-A", "INPUT", "-s", &source.to_string(), "-j", "ACCEPT"])
-                //                 .status()
-                //                 .expect("iptables failed to invoke");
+                let _ipfilter = Command::new("/usr/sbin/iptables")
+                                .args(["-A", "INPUT", "-s", &source.to_string(), "-j", "ACCEPT"])
+                                .status()
+                                .expect("iptables failed to invoke");
             }
 
         }
