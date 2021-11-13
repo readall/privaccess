@@ -1,3 +1,5 @@
+![example workflow](https://github.com/readall/privaccess/actions/workflows/rust.yml/badge.svg)
+
 # privaccess
 This is a Single packet authentication and authorization server.
 There is a client needed and one such implementation is https://github.com/readall/privclient
